@@ -1,13 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Age Voting Checker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Check Voting Eligibility</h2>
+    <form id="votingForm">
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" />
+      </div>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <button type="submit" id="btn">Submit</button>
+    </form>
+  </div>
 
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <!-- write the body here -->
-
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>
